@@ -36,7 +36,7 @@ header nav ul {
     list-style: none;
 }
 header nav ul li a{
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -70,14 +70,15 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 .hero-cta {
     width: 35%;
-    text-algin: right;
+    text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 .hero-cta h2 {
     font-style: italic;
@@ -136,7 +137,7 @@ section {
     text-align: center;
 }
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     border-color: #39a6b2;
@@ -279,4 +280,19 @@ section {
 }
 .flex-row {
     display: flex;
+}
+
+/* Media Query for Smaller Desktop Screens and Smaller */
+@media screen and (max-width: 980px) {
+
+}
+
+/* Media Query for Tablets and Smaller */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Media Query for Mobile Phones and Smaller */
+@media screen and (max-width: 575px) {
+
 }
