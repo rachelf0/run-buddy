@@ -281,6 +281,18 @@ section {
 .flex-row {
     display: flex;
 }
+.service-grid-container {
+    display: grid;
+}
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+
+
 
 /* Media Query for Smaller Desktop Screens and Smaller */
 @media screen and (max-width: 980px) {
@@ -357,6 +369,7 @@ section {
         flex: 100%;
     }
 }
+
 
 /* Media Query for Mobile Phones and Smaller */
 @media screen and (max-width: 575px) {
